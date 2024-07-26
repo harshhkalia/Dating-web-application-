@@ -1,0 +1,126 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #ccc;
+}
+
+#AuthPage-navbar-background {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 60px;
+}
+
+#AuthNavLogo {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  top: 15px;
+  left: 14px;
+  font-size: 1.5em;
+}
+
+#authPageNavLine1 {
+  position: relative;
+  left: 550px;
+  bottom: 8px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+}
+
+#footer-background {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  bottom: 317px;
+}
+
+#footer-innerLine {
+  position: relative;
+  bottom: 13px;
+  left: 440px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4em;
+}
+
+#homeNav-background {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 55px;
+}
+
+#dataContainer {
+  position: relative;
+  width: 290px;
+  height: 750px;
+  background-color: white;
+  border: 0.8px solid black;
+  top: 55px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#profilenav-background {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 55px;
+}
+
+#profileSideContainer {
+  position: relative;
+  width: 290px;
+  height: 750px;
+  background-color: white;
+  border: 0.8px solid black;
+  top: 55px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#home-footer-background {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  bottom: 497px;
+}
+
+#message-footer-background {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  bottom: 497px;
+}
+
+#message-navbar-background {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  height: 55px;
+}
+
+#messageSideBar {
+  position: relative;
+  width: 290px;
+  height: 750px;
+  background-color: white;
+  border: 0.8px solid black;
+  top: 55px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

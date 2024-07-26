@@ -1,0 +1,508 @@
+#pageContainer {
+  position: relative;
+  width: 650px;
+  height: 550px;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  bottom: 600px;
+  overflow-x: hidden;
+  left: 600px;
+}
+
+#findUserInput {
+  position: relative;
+  padding: 4px 4px;
+  left: 10px;
+  width: 580px;
+  text-indent: 8px;
+  top: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px 0 0 5px;
+}
+
+#findUserButton {
+  position: relative;
+  padding: 4px 4px;
+  background-color: aliceblue;
+  border-radius: 0 5px 5px 0;
+  top: 12px;
+  left: 9px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+
+#chatsHeading {
+  position: relative;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 18px;
+  top: 10px;
+}
+
+#containerBackground {
+  position: relative;
+  width: 615px;
+  height: 460px;
+  background-color: #fefefe;
+  border: 0.7px solid black;
+  left: 17px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  bottom: 3px;
+}
+
+#usersContainer {
+  position: relative;
+  width: 190px;
+  height: 460px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: transparent;
+  border: 0.8px solid black;
+}
+
+#messagesContainer {
+  position: relative;
+  width: 423px;
+  height: 461px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: transparent;
+  border: 0.8px solid black;
+  bottom: 463px;
+  left: 192px;
+}
+
+#detailsContent {
+  position: relative;
+  width: 180px;
+  border-radius: 4px;
+  left: 5px;
+  background-color: black;
+  cursor: pointer;
+  height: 70px;
+  margin-bottom: 14px;
+  top: 8px;
+}
+
+#recieverimage {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 4px;
+  top: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#noProfilePic {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 4px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#noMessages {
+  position: relative;
+  top: 170px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#recieverFullName {
+  position: relative;
+  bottom: 77px;
+  left: 84px;
+  font-size: 1.2em;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#detailsLine {
+  position: relative;
+  bottom: 74px;
+  left: 114px;
+  font-size: 0.9em;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#messagingTo {
+  position: relative;
+  bottom: 10px;
+  top: 180px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  opacity: 0.4;
+}
+
+#messageOptions {
+  position: relative;
+  padding: 5px 5px;
+  left: 8px;
+  border-radius: 4px;
+  background-color: yellow;
+  color: black;
+  top: 376px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#messagesInputbox {
+  position: relative;
+  padding: 5px 5px;
+  width: 340px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 4px;
+  text-indent: 7px;
+  top: 376px;
+  left: 10px;
+}
+
+#sendMessageButton {
+  position: relative;
+  padding: 5px 5px;
+  left: 12px;
+  border-radius: 4px;
+  background-color: yellow;
+  color: black;
+  top: 376px;
+  cursor: pointer;
+}
+
+#messageBackground {
+  position: relative;
+  width: 120px;
+  left: 7px;
+  height: 50px;
+  max-height: 50px;
+  max-width: 80%;
+  background-color: #fefefe;
+  border: 0.7px solid black;
+  border-radius: 4px;
+  color: black;
+  bottom: 100px;
+}
+
+#message {
+  position: relative;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.9em;
+  top: 4px;
+}
+
+#sender_name {
+  position: relative;
+  left: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  bottom: 84px;
+}
+
+#messageSeen {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.9em;
+  left: 55px;
+}
+
+#sentTime {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.9em;
+  margin-left: 20px;
+}
+
+#settingContainer {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  top: 134px;
+  left: 8px;
+}
+
+#deleteChatButton {
+  position: relative;
+  padding: 7px 7px;
+  top: 47px;
+  cursor: pointer;
+  width: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+#blockUserButton {
+  position: relative;
+  padding: 7px 7px;
+  bottom: 17px;
+  cursor: pointer;
+  width: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+#markasunreadButton {
+  position: relative;
+  padding: 7px 7px;
+  bottom: 96px;
+  cursor: pointer;
+  width: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+#messagesOption {
+  position: relative;
+  padding: 4px 4px;
+  background-color: yellow;
+  color: black;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  left: 132px;
+  bottom: 138px;
+}
+
+#optionsContainer {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 4px;
+  left: 160px;
+  bottom: 180px;
+}
+
+#editMessage {
+  position: relative;
+  padding: 7px 7px;
+  background-color: lightgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+#deleteMessage {
+  position: relative;
+  padding: 7px 7px;
+  background-color: lightcoral;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  top: 10px;
+  left: 18px;
+  cursor: pointer;
+}
+
+#editMessageModalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#editMessageModal {
+  position: relative;
+  width: 260px;
+  height: 250px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#messageModalLine1 {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  bottom: 5px;
+  left: 8px;
+}
+
+#oldMessageContainer {
+  position: relative;
+  left: 10px;
+  width: 238px;
+  height: 70px;
+  background-color: aliceblue;
+  border: 0.6px solid black;
+  border-radius: 4px;
+  bottom: 15px;
+}
+
+#messageModalLine2 {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  bottom: 25px;
+  left: 8px;
+}
+
+#newMessageInput {
+  position: relative;
+  left: 8px;
+  width: 238px;
+  height: 64px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 6px;
+  bottom: 37px;
+}
+
+#saveChangesButton {
+  position: relative;
+  padding: 7px 7px;
+  background-color: lightcyan;
+  border-radius: 6px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  bottom: 31px;
+  left: 36px;
+}
+
+#cancelChangesButton {
+  position: relative;
+  padding: 7px 7px;
+  background-color: lightcoral;
+  border-radius: 6px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  bottom: 31px;
+  left: 72px;
+}
+
+#selectedMessage {
+  position: relative;
+  left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#searchedUserModalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchUserModal {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#userProfileSide {
+  position: relative;
+  width: 130px;
+  height: 300px;
+  bottom: 19px;
+  border-radius: 5px 0 0 5px;
+  background-color: black;
+}
+
+#searchuserUsername {
+  position: relative;
+  text-align: center;
+  top: 120px;
+  font-size: 1.2em;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#searchuserWhitePFP {
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  left: 27px;
+  bottom: 35px;
+}
+
+#searchuserProfilePic {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  left: -22px;
+  bottom: 5px;
+}
+
+#searchModalHeading {
+  position: relative;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  left: 66px;
+  bottom: 331px;
+}
+
+#chatsContainer {
+  position: relative;
+  width: 196px;
+  height: 231px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  left: 142px;
+  bottom: 341px;
+  background-color: aliceblue;
+  border: 0.6px solid black;
+  margin-bottom: 2px;
+}
+
+#viewChatsButton {
+  position: relative;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: lightskyblue;
+  bottom: 339px;
+  left: 180px;
+  cursor: pointer;
+}
+
+#fetched_sender_name {
+  position: relative;
+  left: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  bottom: 6px;
+}
+
+#fetchedMessageBackground {
+  position: relative;
+  width: 120px;
+  left: 7px;
+  height: 50px;
+  max-height: 50px;
+  max-width: 80%;
+  background-color: #fefefe;
+  border: 0.7px solid black;
+  border-radius: 4px;
+  color: black;
+  bottom: 20px;
+}

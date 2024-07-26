@@ -1,0 +1,60 @@
+#firstname {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  top: 205px;
+  right: 3px;
+  color: black;
+}
+
+#phonenumber {
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.1em;
+  color: black;
+  text-align: center;
+  top: 178px;
+  right: 5px;
+}
+
+#gender {
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.1em;
+  color: black;
+  text-align: center;
+  top: 158px;
+  right: -12px;
+}
+
+#genderIcon {
+  right: 5px;
+  position: relative;
+  font-size: 1em;
+}
+
+#locationIcon {
+  position: relative;
+  margin-left: 14px;
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+#viewProfileBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+#profilePic {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  bottom: 48px;
+  right: 10px;
+}

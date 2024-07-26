@@ -1,0 +1,328 @@
+#loginContainer {
+  position: relative;
+  width: 310px;
+  height: 160px;
+  border-radius: 8px;
+  background-color: white;
+  top: 225px;
+  border: 0.8px solid black;
+  left: 630px;
+}
+
+#loginHeading {
+  position: relative;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  color: black;
+  bottom: 15px;
+}
+
+#seperateLine {
+  position: relative;
+  bottom: 30px;
+  width: auto;
+  height: 1px;
+  background-color: black;
+}
+
+#emailAndPhoneInput {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  text-indent: 7px;
+  border-radius: 4px;
+  left: 20px;
+  bottom: 18px;
+  width: 265px;
+}
+
+#loginPass {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  border-radius: 4px;
+  left: 20px;
+  text-indent: 7px;
+  bottom: 4px;
+  width: 265px;
+}
+
+#loginButton {
+  position: relative;
+  padding: 6px 6px;
+  background-color: yellow;
+  top: 6px;
+  left: 132px;
+  color: black;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#loginButton:hover,
+#signupButton:hover,
+#saveProfileData:hover {
+  background-color: black;
+  color: white;
+}
+
+#cancelProfileBtn:hover {
+  background-color: red;
+}
+
+#signupatag {
+  position: relative;
+  bottom: 6px;
+  left: 240px;
+  font-size: 0.9em;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+#signupContainer {
+  position: relative;
+  width: 310px;
+  height: 244px;
+  border-radius: 8px;
+  background-color: white;
+  top: 195px;
+  border: 0.8px solid black;
+  left: 630px;
+  display: none;
+}
+
+#signupHeading {
+  position: relative;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  color: black;
+  bottom: 15px;
+}
+
+#seperateLine2 {
+  position: relative;
+  bottom: 30px;
+  width: auto;
+  height: 0.8px;
+  background-color: black;
+}
+
+#numberInput {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  text-indent: 7px;
+  border-radius: 4px;
+  left: 20px;
+  bottom: 18px;
+  width: 265px;
+}
+
+#emailInput {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  border-radius: 4px;
+  left: 20px;
+  text-indent: 7px;
+  bottom: 4px;
+  width: 265px;
+}
+
+#signupPassword {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  border-radius: 4px;
+  left: 20px;
+  text-indent: 7px;
+  bottom: -10px;
+  width: 265px;
+}
+
+#passwordConfirm {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px 3px;
+  border-radius: 4px;
+  left: 20px;
+  text-indent: 7px;
+  bottom: -24px;
+  width: 265px;
+}
+
+#signupButton {
+  position: relative;
+  padding: 6px 6px;
+  background-color: yellow;
+  top: 38px;
+  left: 100px;
+  color: black;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#loginatag {
+  position: relative;
+  top: 28px;
+  left: 252px;
+  font-size: 0.9em;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+#signupModalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#signupModal {
+  position: relative;
+  width: 400px;
+  height: 340px;
+  background-color: white;
+  border-radius: 6px;
+  left: 600px;
+  z-index: 1100;
+}
+
+#modalHeading {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4em;
+  top: 5px;
+  text-align: center;
+}
+
+#modalLine {
+  position: relative;
+  width: auto;
+  height: 0.9px;
+  background-color: black;
+  bottom: 20px;
+}
+
+#usernameInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  width: 340px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 7px;
+  left: 28px;
+  bottom: 4px;
+}
+
+#firstnameInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  width: 160px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 7px;
+  top: 7px;
+  left: 28px;
+}
+
+#lastnameInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  width: 160px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 7px;
+  top: 7px;
+  left: 38px;
+}
+
+#ageInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 162px;
+  text-indent: 7px;
+  left: 28px;
+  top: 18px;
+}
+
+#genderInput {
+  position: relative;
+  width: 170px;
+  padding: 3px 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 36px;
+  top: 18px;
+  border-radius: 4px;
+}
+
+#locationInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 162px;
+  text-indent: 7px;
+  left: 28px;
+  top: 29px;
+}
+
+#interestsInput {
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 162px;
+  text-indent: 7px;
+  left: 36px;
+  top: 29px;
+}
+
+#profileBioInput {
+  position: relative;
+  left: 28px;
+  top: 40px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 7px;
+  height: 80px;
+  width: 345px;
+}
+
+#saveProfileData {
+  position: relative;
+  padding: 8px 8px;
+  background-color: yellow;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 7px;
+  cursor: pointer;
+  top: 47px;
+  left: 184px;
+}
+
+#cancelProfileBtn {
+  position: relative;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  top: 88px;
+  width: 220px;
+  left: 100px;
+}

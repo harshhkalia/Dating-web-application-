@@ -1,0 +1,54 @@
+#myFullName {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  top: 205px;
+  right: 3px;
+  color: black;
+}
+
+#myPhoneNumber {
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.1em;
+  color: black;
+  text-align: center;
+  top: 178px;
+  right: 5px;
+}
+
+#myProfilePic {
+  position: relative;
+  width: 100px;
+  top: 3px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  left: 94px;
+}
+
+#navHome {
+  position: relative;
+  padding: 8px 8px;
+  border-radius: 7px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: -20px;
+  top: 90px;
+}
+
+#navProfile {
+  position: relative;
+  padding: 8px 8px;
+  border-radius: 7px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 90px;
+}

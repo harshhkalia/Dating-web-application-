@@ -1,0 +1,53 @@
+#profileDetail {
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  color: black;
+  top: 250px;
+  text-align: center;
+}
+
+#profileUsername {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1em;
+  color: black;
+  text-align: center;
+  top: 230px;
+}
+
+#homeButton {
+  position: relative;
+  padding: 8px 8px;
+  border-radius: 7px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 70px;
+  top: 230px;
+}
+
+#inboxButton {
+  position: relative;
+  padding: 8px 8px;
+  border-radius: 7px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 109px;
+  top: 230px;
+}
+
+#profilePicture {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  top: 50px;
+  right: 16px;
+}
